@@ -1,0 +1,22 @@
+------------------------------------------
+|0  |1           |2            |3   |4   |
+------------------------------------------
+|ver|led color no|led status no|keep time|
+------------------------------------------
+
+ver:
+1
+
+led color no:
+0: ALL
+1: RED
+2: GREEN
+3: BLUE
+
+led status no:
+0: all time
+1: blink, 0.5s
+2: blink, 1s
+
+keep time:
+seconds
