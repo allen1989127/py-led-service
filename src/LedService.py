@@ -2,7 +2,9 @@
 
 # -*- coding: utf-8 -*-
 
-def main() :
+from org.freeman.led.led_controller import LedController
 
+def main() :
+    controller = LedController()
 
 main()

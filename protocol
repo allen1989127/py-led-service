@@ -8,12 +8,14 @@ ver:
 1
 
 led color no:
+0xFF: None Change
 0: ALL
 1: RED
 2: GREEN
 3: BLUE
 
 led status no:
+0xFF: None Change
 0: all time
 1: blink, 0.5s
 2: blink, 1s
