@@ -37,3 +37,7 @@ class LedController:
         self.bPWM.start(30)
         time.sleep(1)
         self.bPWM.stop()
+
+        GPIO.output(_LedChannel.RED_CHANNEL, GPIO.LOW)
+        GPIO.output(_LedChannel.GREEN_CHANNEL, GPIO.LOW)
+        GPIO.output(_LedChannel.BLUE_CHANNEL, GPIO.LOW)
